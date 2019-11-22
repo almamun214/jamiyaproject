@@ -61,7 +61,7 @@
                                                     <div class="row">
                                                         <div class="portlet-body form">
                                                             <!-- BEGIN FORM-->
-                                                            <form action="{{route('paymentVoucherSave')}}" method="post" class="form-horizontal">
+                                                            <form action="{{route('paymentVoucerSave')}}" method="post" class="form-horizontal">
                                                                 @csrf
 
                                                               

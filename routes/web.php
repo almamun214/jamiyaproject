@@ -45,12 +45,19 @@ Route::group(['middleware' => ['auth']], function () {
      * receiveVoucher
      */
 
-    Route::get('/paymentVoucher/add', 'ChartOfAccountController@paymentVoucherAdd')->name('paymentVoucherAdd');
-    Route::post('/paymentVoucherSave', 'ChartOfAccountController@paymentVoucherSave')->name('paymentVoucherSave');
-    Route::post('/receivedVoucherSave', 'ChartOfAccountController@receivedVoucherSave')->name('receivedVoucherSave');
-    Route::get('/receiveVoucher/add', 'ChartOfAccountController@receiveVoucher')->name('receiveVoucher');
+   
     //chartOfAccount
 
+    /*payment voucher add start*/
+    
+        Route::get('/paymentVoucer', 'PaymentVoucherController@index')->name('paymentVoucer');
+        Route::get('/paymentVoucerCrate', 'PaymentVoucherController@create')->name('paymentVoucerCrate');
+        Route::post('/paymentVoucerSave', 'PaymentVoucherController@store')->name('paymentVoucerSave');
+    
+    /*payment voucher add end*/
+    
+    
+    
     Route::get('/chart-of-account/list', 'ChartOfAccountController@index')->name('chartOfAccountList');
     Route::get('/chart-of-account/create', 'ChartOfAccountController@create')->name('chartOfAccount');
     Route::post('/chart-of-account/create', 'ChartOfAccountController@store')->name('chartOfAccountStore');

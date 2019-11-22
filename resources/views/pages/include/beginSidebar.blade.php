@@ -112,7 +112,6 @@
                 </a>
                 <ul class="sub-menu">
 
-
                     <li class="nav-item  ">
                         <a href="javascript:;" class="nav-link nav-toggle">
                             <span class="title">Accounts Transaction</span>
@@ -120,13 +119,13 @@
                         </a>
                         <ul class="sub-menu">
                             <li class="nav-item ">
-                                <a href="{{route('paymentVoucherAdd')}}" class="nav-link ">payment Voucher</a>
+                                <a href="{{route('paymentVoucer')}}" class="nav-link ">payment Voucher</a>
                             </li>
                             <li class="nav-item ">
-                                <a href="{{route('receiveVoucher')}}" class="nav-link ">Receive Voucher</a>
+                                <!--<a href="" class="nav-link ">Receive Voucher</a>-->
                             </li>
                             <li class="nav-item ">
-                                <a href="{{route('chartOfAccountList')}}" class="nav-link "> View Chart of Account </a>
+                                <!--<a href="" class="nav-link ">Journal Voucher</a>-->
                             </li>
                         </ul>
                     </li>
