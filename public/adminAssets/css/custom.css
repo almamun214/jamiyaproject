@@ -1,0 +1,55 @@
+.main-dashboard-content-head{
+    padding-right: 20px;
+}
+.dashboard-content-head-row{
+    padding: 0;
+    border: 1px solid #d2c9c9;
+    margin-left: 15px;  
+    margin-right: -3px;
+}
+.col-md-padding{
+    padding:0;
+    margin: 0;
+}
+.dashboard-content-icon{
+    padding: 19px;
+    color: #eee;
+}
+.dashboard-content-head-content > h2{
+    width: 75px;
+    height: 75px;
+    margin: 0;
+    margin-left: 2px;
+    padding: 0;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #909090;      
+}
+.dashboard-content-head-content{
+    padding:10px 0px;
+}
+.account-row{
+    padding: 10px;
+}
+.border-table-none>tbody>tr>td{
+    border: 0;
+}
+.table tr{
+    border: 1px solid #d2c9c9;
+}
+.arrow-right-dash{
+    color: #790b0b;
+    padding: 6px;
+}
+.box-title{
+    margin: 0px; 
+    color: #fff;
+    padding: 10px;
+}
+.right-title{
+    font-size: 14px;
+}
+.box-header-title{
+    font-weight: bold;
+    color: #565656;
+}

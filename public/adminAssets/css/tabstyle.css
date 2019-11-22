@@ -1,0 +1,541 @@
+/*Student Dashboard Style*/
+.student-dashboard{
+	background-color: #2F84E4;
+	padding: 5px 10px;
+	margin-top: 10px;
+}
+/*.total-dashboard{
+	border-left: 1px solid #858;
+	border-bottom: 5px solid #DD78AC;
+}*/
+.student-welcome>h4{
+	margin: 0;
+	color: #FFF200;
+	font-weight: 700;
+}
+.student-welcome > h5{
+	color: #fff;
+	font-weight: 500;
+}
+.s-name{
+	font-size: 18px;
+	font-weight: bold;
+}
+.head-logo > h2 {
+  color: #fff200;
+  font-family: cursive;
+  font-size: 27px;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 0 15px;
+  text-align: center;
+}
+.image-item > h5{
+	color: #fff;
+	text-align: center;
+}
+.last-login>h5{
+	margin: 0;
+	color:#fff;
+	padding-bottom: 4px;
+}
+.top-nav-right>li{
+	margin-right: 5px;
+	padding: 5px 8px;
+	border:1px solid #565;
+	color: #eee;
+}
+
+.tap-left-box{
+	margin: 10px 9px;	
+	background-color: #fff;
+}
+.tap-right-box{
+	margin: 10px 9px;
+
+}
+.tab-head-section{
+	border-top: 9px solid #2f84e4;
+}
+
+.tablmenu-bottom{
+	background-color: #C2DBF7;
+}
+.padding-left{
+	padding: 0;
+}
+.no-padding-form{
+	padding: 0;
+	border-top: 0;
+}
+.task{
+	background-color: #3C8CE6;
+	color: #fff;
+}
+.task>h4{
+	margin-bottom: 0;
+	padding:8px;
+	color: #eee;
+	font-weight: 700;
+	margin: 0;
+}
+#view-backcolor{
+	background-color: #785d86;
+	text-align: center;
+	margin-right: 0px;
+}
+#result-backcolor{
+	background-color: #F362A9;
+	text-align: center;
+	margin-right: 0px;
+}
+#accounting-backcolor{
+	background-color: #EE9400;
+	text-align: center;
+	margin-right: 0px;
+}
+#library-backcolor{
+	background-color: #00A17D;
+	text-align: center;
+	margin-right: 0px;
+}
+#attendance-backcolor{
+	background-color: #B792D8;
+	text-align: center;
+	margin-right: 0px;
+}
+#message-backcolor{
+	background-color: #C3C3C3;
+	text-align: center;
+	margin-right: 0px;
+}
+#guardian-backcolor{
+	background-color: #A4D217;
+	text-align: center;
+	margin-right: 0px;
+}
+#clearance-backcolor{
+	background-color: #A349A4;
+	text-align: center;
+	margin-right: 0px;
+}
+
+#student-backcolor{
+	background-color: #7092BE;
+	text-align: center;
+	margin-right: 0px;
+}
+
+#officeal-backcolor{
+	background-color: #C7101A;
+	text-align: center;
+	margin-right: 0px;
+}
+
+.nav-tabs > li > a {
+	margin-right: 0px;
+	padding: 5px 15px;
+}
+.nav-tabs > li > a > h5{
+	font-weight: 700;
+	color: #fff;
+	
+}
+.customtab2 li {
+  padding: 0 10px;
+}
+.nav-tabs > li{
+	box-shadow: 0 2px 5px 0 #111;
+}    
+.nav-right-tap> li > a{
+	padding: 5px 6px !important;	
+}
+.nav-item>a>h5{
+	margin: 0;
+}
+
+.customtab2 li .nav-link.active, .customtab2 li .nav-link.active:focus, .customtab2 li .nav-link.active:hover{
+    background: #fff;
+    color: #111;
+	margin-left: -9px;
+    margin-right: -9px;
+}
+.nav-link.active h5{
+	color: #111;
+}
+.customtab2.nav-tabs .nav-link {
+  border: 0 none;
+  padding-left: 16px;
+  padding-right: 16.5px;
+}
+.nav-tabs .nav-link {
+	border-radius: 0px;	
+}
+
+/*tab Result*/
+.result-border-box{
+	padding: 10px;
+	border:2px solid #F362A9;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+.accounting-border-box{
+	padding: 10px;
+	border:2px solid #EE9400;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+.library-border-box{
+	padding: 10px;
+	border:2px solid #00A17D;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+.attendance-border-box{
+	padding: 10px;
+	border:2px solid #8F55C1;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+.personal-table > tbody > tr > td{
+	border-top:none;
+	color: #111;
+	padding: 4px 8px;
+}
+.bottom-table tr td{
+	border-top:none !important;
+	color: #111;
+	padding: 4px 8px !important;
+	border-bottom: 1px solid #a4b6ca;
+}
+.bottom-table{
+	border-left:1px solid #a4b6ca; 
+}
+.report-section{
+	padding: 25px 30px;
+}
+.fotter-submit{
+	padding: 100px 0px;
+	text-align: center;
+}
+.fotter-submit button{
+	border-radius: 3px;
+	padding: 7px 30px;
+	box-shadow: 0px 2px 4px 0px #111;
+}
+.header-bottom > h5{
+	text-align: center;
+	color: #fff;
+	margin: 0;
+}
+#page-wrapper {
+  margin: 10px auto;
+}
+.rowmarging-10{
+	margin-top: 10px;
+}
+.guardian-image img{
+	padding-right: 10px;
+}
+
+.shadow-table thead tr th{
+    box-shadow: 4px 2px 6px 0px #111;
+    border: 1px solid #03a9f3;
+}
+.shadow-table thead tr th:first-child{
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.shadow-table tbody tr td{
+    border: 1px solid #03a9f3;
+    padding: 15px;
+}
+.nav-horizantal{
+	margin-top: 35px;
+}
+.nav-horizantal li {
+  list-style: outside none none;
+  margin: 6px 0;
+  max-width: 310px;
+  padding: 6px 5px;
+  width: 100%;
+}
+.nav-horizantal li.st-bg-1 {
+  background: #B0E8FF;
+}
+.nav-horizantal li.st-bg-2 {
+  background: #E3DEF3;
+}
+.attendance-details .nav-attendance .nav-horizantal li.bg-color {
+  background: #efe4b0 none repeat scroll 0 0;
+  max-width: 310px;
+  width: 100%;
+}
+.attendance-details .nav-attendance ul {
+  margin-bottom: 25px;
+}
+.married{
+	padding-left: 15px;
+}
+.wife{
+	padding: 0 15px;
+}
+.padd-left-p{
+	padding-left: 15px;
+}
+.margin-tp{
+	margin-top: 10px;
+}
+.bold-text{
+	list-style: none;
+	padding: 15px;
+	font-weight: 500;
+}
+.divide{
+	margin-top: 25px;
+}
+.document{
+	padding: 15px;
+}
+.text-bold{
+	color: #111;
+	font-weight: 600;
+}
+
+.margin-tp40{
+	margin-top: 40px;
+}
+.margin-tp50{
+	padding: 50px 0;
+}
+
+.margin-top25{
+	margin-top: 25px;
+}
+.nav-back{
+	color: #111;
+}
+#message select.form-control {
+  margin-bottom: 25px;
+}
+/*tab Result*/
+
+
+/*Student Dashboard Style
+/*media css*/
+@media(max-width:450px){
+	#page-wrapper{
+		margin:0;
+	}
+	.nav-tabs > li > a {
+	padding: 3px 3px;	
+	}
+	.report-section{
+		padding: 20px 0px;
+	}
+	.fotter-submit{
+		padding: 30px 0;
+	}
+	.header-bottom>h5{
+		text-align: left;
+		padding: 5px;
+	}
+	.head-logo>h2{
+		text-align: left;
+		line-height: 22px;
+	}
+}
+/*media css*/
+ul.customtab2 li a.nav-link.student-tab {
+  margin-bottom: -16px;
+  padding-bottom: 16px;
+}
+.customtab2.nav-tabs .nav-link.student-tab {
+  border: 0 none;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+/*Student info tab css*/
+.student-info-single-box {
+  margin: 0 8px 30px 8px;
+}
+.student-info-single-box .box-content > ul li {
+    list-style: outside none none;
+    padding: 9px 20px;
+}
+.student-info-single-box .box-content > ul, .student-info-single-box .box-content > .student-dashboard-log > ul {
+  margin: 5px 0 25px;
+  padding: 0;
+}
+.student-info-single-box .box-content > .student-dashboard-log > ul {
+    margin: 30px 0 20px;
+    padding: 0;
+}
+
+.student-info-single-box .box-content > .student-dashboard-log > ul li {
+    list-style: outside none none;
+    padding: 9px 20px;
+}
+.student-info-single-box .box-heading h4 {
+    background: #03a9f3 none repeat scroll 0 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px #333333;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 0;
+    padding: 8px 20px;
+}
+.student-info-single-box .box-content {
+    border: 1px solid #333333;
+    margin-top: -11px;
+}
+.student-info-single-box .box-content .table {
+  margin-left: 20px;
+  margin-top: 30px;
+  max-width: 400px;
+  width: 100%;
+}
+.student-info-single-box .box-content .form-group {
+  margin: 0 20px;
+}
+.student-info-single-box .box-content .form-group textarea  {
+  resize: none;
+}
+.infobox-document > h4 {
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.extracurricul-content-box .form-group > label {
+  display: block;
+}
+.box-content .extracurricul-content-box {
+  margin-top: 30px;
+}
+.box-content .pagination {
+  display: inline-block;
+  margin: 30px 30px 20px 0;
+  padding-left: 0;
+}
+
+#teacher .married ul {
+    margin: 0 0 0 8px;
+    padding: 0;
+}
+#teacher .married ul li {
+    display: inline-block;
+    float: left;
+    list-style: outside none none;
+    margin-right: 14px;
+}
+
+.box-content .pagination-area .pagination > li > a {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  height: 35px;
+  width: 35px;
+  border-radius: 40px;
+  float: left;
+  margin: 0 3px;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+.infobox-document img {
+    transition: all 0.3s ease 0s;
+}
+.infobox-document img:hover {
+  box-shadow: 0 2px 3px #cccccc;
+  transition: all 0.3s ease 0s;
+}
+.pagination-area .pagination > li > a, .pagination-area .pagination > li > span {
+  color: #333333;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+}
+.box-content .pagination-area .pagination > li > a:hover, .box-content .pagination-area .pagination > li > a.active {
+  background-color: #03a9f3;
+  color: #ffffff;
+  transition: all 0.3s ease 0s;
+}
+
+/*Result tab css*/
+.box-content .rating-catagory-list {
+  margin-top: 30px;
+}
+.box-content .rating-catagory-list label.rating-shit-title {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+.student-info-single-box .box-content .form-group.rating-shit-numbers {
+  margin: 25px 20px;
+}
+.student-info-single-box .box-content .total-score {
+  background: #99d9ea none repeat scroll 0 0;
+  margin: 81px 40px 112px 150px;
+}
+.student-info-single-box .box-content .total-score h4 {
+  font-weight: 600;
+  padding: 5px 20px;
+}
+.result-select-button input.btn-submit {
+  background: #88baf0 none repeat scroll 0 0;
+  color: #ffffff;
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 23px auto 0;
+  padding: 10px 50px;
+  text-align: center;
+  border-radius: 5px;
+  transition: .3s;
+}
+.result-select-button input.btn-submit.result-sub-btn {
+	margin: 24px auto 0;
+    padding: 8px 50px;
+}
+.result-select-button input.btn-submit:hover {
+  background: #2F84E4 none repeat scroll 0 0;
+  box-shadow: 0 1px 3px #333333;
+  transition: all 0.3s ease 0s;
+}
+.stusent-result-table {
+  margin: 30px 0 100px 0;
+}
+
+/*Library tab css*/
+.library-section table thead {
+  background: #2f84e4 none repeat scroll 0 0;
+}
+.library-section table thead {
+  background: #2f84e4 none repeat scroll 0 0;
+  box-shadow: 0 2px 3px #a5a5a5;
+}
+.library-section table thead tr th {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/*Clearance tab css*/
+.clearance-tabs-table-section {
+  margin: 20px 0 50px;
+}
+.result-select-button.clearance-section-submit-button input.btn-submit {
+  background: #03a9f3 none repeat scroll 0 0;
+  margin: 190px auto 100px;
+}
+* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.head-logo > h2 {
+  font-size: 15px;
+}
+.image-item img {
+  width: 87px;
+}
+	
+
+
+
+
+
