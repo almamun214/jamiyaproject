@@ -17,9 +17,10 @@ class ChartOfAccountController extends Controller {
 
     public function paymentVoucherSave(Request $request) {
         
+        
         echo "<pre>";
         print_r($_POST);
-        DIE;
+        DIE("1");
         
     }
     public function receivedVoucherSave(Request $request) {
