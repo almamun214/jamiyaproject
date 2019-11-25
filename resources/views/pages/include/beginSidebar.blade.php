@@ -122,10 +122,10 @@
                                 <a href="{{route('paymentVoucer')}}" class="nav-link ">payment Voucher</a>
                             </li>
                             <li class="nav-item ">
-                                <!--<a href="" class="nav-link ">Receive Voucher</a>-->
+                                <a href="{{route('receiveVoucer')}}" class="nav-link ">Receive Voucher</a>
                             </li>
                             <li class="nav-item ">
-                                <!--<a href="" class="nav-link ">Journal Voucher</a>-->
+                                <a href="{{route('journalVoucher')}}" class="nav-link ">Journal Voucher</a>
                             </li>
                         </ul>
                     </li>

@@ -1,15 +1,15 @@
 <?php
 
 /*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+  |--------------------------------------------------------------------------
+  | Web Routes
+  |--------------------------------------------------------------------------
+  |
+  | Here is where you can register web routes for your application. These
+  | routes are loaded by the RouteServiceProvider within a group which
+  | contains the "web" middleware group. Now create something great!
+  |
+ */
 
 Route::get('/', function () {
     return view('welcome');
@@ -44,20 +44,27 @@ Route::group(['middleware' => ['auth']], function () {
     /**
      * receiveVoucher
      */
-
-   
     //chartOfAccount
 
-    /*payment voucher add start*/
+    /* payment voucher add start */
+
+    Route::get('/paymentVoucer', 'PaymentVoucherController@index')->name('paymentVoucer');
+    Route::get('/paymentVoucerCrate', 'PaymentVoucherController@create')->name('paymentVoucerCrate');
+    Route::post('/paymentVoucerSave', 'PaymentVoucherController@store')->name('paymentVoucerSave');
+
+    Route::get('/receiveVoucer', 'ReceiveVoucherController@index')->name('receiveVoucer');
+    Route::get('/receiveVoucerCreate', 'ReceiveVoucherController@create')->name('receiveVoucerCreate');
+    Route::post('/receiveVoucerSave', 'ReceiveVoucherController@store')->name('receiveVoucerSave');
     
-        Route::get('/paymentVoucer', 'PaymentVoucherController@index')->name('paymentVoucer');
-        Route::get('/paymentVoucerCrate', 'PaymentVoucherController@create')->name('paymentVoucerCrate');
-        Route::post('/paymentVoucerSave', 'PaymentVoucherController@store')->name('paymentVoucerSave');
-    
-    /*payment voucher add end*/
-    
-    
-    
+    Route::get('/journalVoucher', 'JournalVoucherController@index')->name('journalVoucher');
+    Route::get('/receiveVoucerCreate', 'JournalVoucherController@create')->name('journalVoucherCreate');
+    Route::post('/receiveVoucerSave', 'JournalVoucherController@store')->name('journalVoucherSave');
+
+
+    /* payment voucher add end */
+
+
+
     Route::get('/chart-of-account/list', 'ChartOfAccountController@index')->name('chartOfAccountList');
     Route::get('/chart-of-account/create', 'ChartOfAccountController@create')->name('chartOfAccount');
     Route::post('/chart-of-account/create', 'ChartOfAccountController@store')->name('chartOfAccountStore');
